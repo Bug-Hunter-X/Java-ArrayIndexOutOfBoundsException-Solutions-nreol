@@ -1,0 +1,1 @@
+This repository demonstrates a common Java programming error: exceeding the bounds of an array. The `bug.java` file contains the erroneous code, while `bugSolution.java` provides the corrected version.  The error occurs in the first loop, where the loop condition `i <= arr.length` is incorrect. It should be `i < arr.length` to prevent accessing the index beyond the array's size.
